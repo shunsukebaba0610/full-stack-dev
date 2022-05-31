@@ -1,0 +1,25 @@
+require("dotenv").config();
+
+{
+  "development": {
+    "username": "root",
+    "password": PASSWORD,
+    "database": DATABASE,
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "",
+    "dialect": "mysql"
+  }
+}
